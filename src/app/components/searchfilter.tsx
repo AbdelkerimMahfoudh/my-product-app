@@ -78,4 +78,4 @@ const SearchFilter: React.FC<SearchFilterProps> = ({ onSearch }) => {
   );
 };
 
-export default SearchFilter;
+export default SearchFilters;

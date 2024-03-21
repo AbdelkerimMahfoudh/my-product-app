@@ -1,7 +1,8 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-import { Product, technical} from "../types/Product";
+import Product from "../types/Product";
 import Input from "./input";
+import TechnicalCharacteristics from "../types/technicals";
 import { Form, Button } from "react-bootstrap";
 
 const ProductForm: React.FC<{ initialData?: Product }> = ({ initialData }) => {
