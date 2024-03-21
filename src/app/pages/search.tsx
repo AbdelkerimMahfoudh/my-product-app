@@ -9,11 +9,8 @@ const SearchPage: React.FC = () => {
   const products = useSelector((state) => state.products);
 
   const handleSearch = (filters: SearchFilters) => {
-    // Dispatch action to fetch products based on filters
-    dispatch(fetchProducts({ filters })); // Modify based on your actual filtering logic
+    
+    dispatch(fetchProducts({ filters })); 
   };
 
-  return (
-    <div>
-      <SearchFilter onSearch={handleSearch} />
-      <ProductList products={products
+ 

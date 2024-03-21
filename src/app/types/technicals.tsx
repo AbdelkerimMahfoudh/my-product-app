@@ -7,7 +7,6 @@ const TechnicalCharacteristics: React.FC = ({ register }) => {
     <>
       <Input label="Brand" {...register("technicalCharacteristics.brand")} />
       <Input label="Model" {...register("technicalCharacteristics.model")} />
-      {/* ... other technical characteristic fields */}
     </>
   );
 };
