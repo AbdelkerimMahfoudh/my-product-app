@@ -22,3 +22,5 @@ interface Product {
   interface Option {
     optionName: string;
   }
+
+  export default Product;
