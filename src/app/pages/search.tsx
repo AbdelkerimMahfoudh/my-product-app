@@ -13,4 +13,6 @@ const SearchPage: React.FC = () => {
     dispatch(fetchProducts({ filters })); 
   };
 
- 
+}
+
+// export default SearchPage;

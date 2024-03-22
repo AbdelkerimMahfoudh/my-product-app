@@ -1,6 +1,7 @@
-import React from "react";
-import { Form, Range } from "react-bootstrap";
 
+import Form from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css"
+import "bootstrap/dist/js/bootstrap.bundle.min";
 interface SearchFilterProps {
    onSearch: (filters: SearchFilters) => void;
 }
@@ -78,4 +79,4 @@ const SearchFilter: React.FC<SearchFilterProps> = ({ onSearch }) => {
   );
 };
 
-export default SearchFilters;
+export default SearchFilter;
